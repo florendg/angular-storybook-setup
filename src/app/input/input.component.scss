@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+
+  label {
+    align-items: center;
+    display: flex;
+    flex: 1;
+  }
+
+  input {
+    font-size: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    flex: 3;
+    padding:10px;
+
+    &[disabled] {
+      background-color: lightgray;
+      cursor: not-allowed;
+    }
+  }
+}
